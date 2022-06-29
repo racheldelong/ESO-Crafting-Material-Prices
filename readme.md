@@ -1,6 +1,6 @@
 ## __ESO Furnishing Mat Prices__
 
-I started tracking the price of furnishing materials in *Elder Scrolls Online* in late 2019, originally just to get a sense of what was normal, and later to demonstrate how bizarre some price shifts were.
+I started tracking the price of furnishing materials in *Elder Scrolls Online* in late 2019, originally just to get a sense of what was normal, and later to demonstrate how unusual some price shifts were.
 
 With this project, I intend to compare how prices of each material have changed over time.
 
