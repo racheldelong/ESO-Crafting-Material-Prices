@@ -1,12 +1,12 @@
-## __ESO Crafting Material Prices__
+# __ESO Crafting Material Prices__
 
 For my Code Kentucky Data Analysis 1 project I'll be looking at the price history of comparable crafting materials in the MMORPG *The Elder Scrolls Online*. The materials chosen are all used in similar ways with similar sources, but have had dramatically different price fluctuations over the years. All items are sold by players via shop locations purchased by player-created guilds, and a third party add-on (Tamriel Trade Centre) manages a searchable database of listings. TTC uses their database to create price suggestions for players, and their daily suggestions were used for getting the price for each date, along with the number of listings and total quantity listed for most dates tracked.
 
-### __Data__
+## __Data__
 
 Prices were recorded by me from the Tamriel Trade Centre add-on and website (https://us.tamrieltradecentre.com/pc/Trade). Each date includes the suggested price ranges for the PCNA server only. 
 
-### __Project Plan__
+## __Project Plan__
 
 #### Feature 1: Read data in.
 
