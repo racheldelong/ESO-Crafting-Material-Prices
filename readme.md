@@ -4,7 +4,7 @@ For my Code Kentucky Data Analysis 1 project I'll be looking at the price histor
 
 ## __Data__
 
-Prices were recorded by me from the Tamriel Trade Centre add-on and website (https://us.tamrieltradecentre.com/pc/Trade). Each date includes the suggested price ranges for the PCNA server only. 
+Prices were recorded by me from the Tamriel Trade Centre add-on and website (https://us.tamrieltradecentre.com/pc/Trade). Data is applicable to the PCNA server only. 
 
 ## __Project Plan__
 
