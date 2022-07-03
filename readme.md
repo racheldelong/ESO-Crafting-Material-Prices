@@ -26,4 +26,4 @@ Matplotlib will be used to create a line graph of prices over a bar graph of ava
 
 #### Feature 5: Interpret your data and graphical output.
 
-Obvious interpretations will be discussed, along with possible explanations (temporary changes to drop rate or demand from in-game events, for example), in markdown cells throughout the notebook.
+Obvious interpretations will be discussed, along with the most likely explanations (in-game events and patches, etc), in markdown cells throughout the notebook. Any unexplained price changes will be discussed in the context of the item's use and the game's economy.
