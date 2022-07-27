@@ -1,29 +1,58 @@
-# __ESO Crafting Material Prices__
+# __*The Elder Scrolls Online* Furnishing Material Prices__
 
-For my Code Kentucky Data Analysis 1 project I'll be looking at the price history of comparable crafting materials in the MMORPG *The Elder Scrolls Online*. The materials chosen are all used in similar ways with similar sources, but have had dramatically different price fluctuations over the years. All items are sold by players via shop locations purchased by player-created guilds, and a third party add-on (Tamriel Trade Centre) manages a searchable database of listings. TTC uses their database to create price suggestions for players, and their daily suggestions were used for getting the price for each date, along with the number of listings and total quantity listed for most dates tracked.
+For my Code Kentucky Data Analysis 1 project I'll be looking at the price history of comparable crafting materials in the *The Elder Scrolls Online*. The materials chosen are all used in similar ways with similar sources, but have had dramatically different price fluctuations over the years. 
 
 ## __Data__
 
-Prices were recorded by me from the Tamriel Trade Centre add-on and website (https://us.tamrieltradecentre.com/pc/Trade). Data is applicable to the PCNA server only. 
+All data before March 2022 was taken from the Tamriel Trade Centre add-on for ESO. Once Tamriel Trade Centre's website (https://us.tamrieltradecentre.com/pc/Trade/PriceCheck) began including the price history for each item, most entries were recorded using the website rather than the in-game item tooltip. Prices may be rounded differently depending on the source. TTC's suggested price ranges (included in the csv) were simplified by finding the mean of the upper and lower values in Google Sheets.
+
+Due to an issue with the add-on recording duplicates after scanning trader listings, number of listings and total quantity listed for 1-16-21 and 1-19-21 were manually adjusted to be in line with other entries and quantity values for those dates are likely still inaccurate.
+
+## __Setup__
+
+Download repository from GitHub. 
+Main file is a Jupyter Notebook. Install Anaconda (http://www.anaconda.com), then open 'ESOMatPrices.ipynb'
+
+#### __Packages needed:__
+
+pandas
+numpy
+matplotlib
 
 ## __Project Plan__
 
 #### Feature 1: Read data in.
 
-Data will be read from a csv via pandas read_csv function in a Jupyter Notebook.
+Data is read using pandas read_csv function.
 
 #### Feature 2: Manipulate and clean your data.
 
-Date formatting will be adjusted for consistency and usability, and unneccessary sections of data will be removed.
+- Used dropna to remove missing values
+- Used filter to select specific columns from the csv
+- Used pandas concat to merge results into a dataframe
+- Renamed columns for readability
+- Rounded results for readability
 
 #### Feature 3: Analyze your data.
 
-I intend to find the mean, median, and mode of a price within the tracked time period. I also intend to find the highest and lowest prices per item, and calculate how much the price changed before and during known in-game events and patches that affected availability and demand.
+- Pandas min for the minimum value
+- Pandas idxmin for the index (date) of the minimum value
+- Pandas max for the maximum value
+- Pandas idxmax for the index (date) of the maximum value
+- Pandas diff for the difference between a row and the previous row
+- Pandas desc for descriptive statistics
 
 #### Feature 4: Visualize your data.
 
-Matplotlib will be used to create a line graph of prices over a bar graph of available quantity of an item over time. Similar graphs of different items will be created for comparison.
+- Table of min/max + index results (2020 vs 2022)
+- Line graphs showing price in 2019, 2020, and 2022
+- Line graph of quantity in 2020 and 2022
+- Multiple graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity per item
 
 #### Feature 5: Interpret your data and graphical output.
 
-Obvious interpretations will be discussed, along with the most likely explanations (in-game events and patches, etc), in markdown cells throughout the notebook. Any unexplained price changes will be discussed in the context of the item's use and the game's economy.
+Obvious interpretations are discussed, along with the most likely explanations (in-game events and patches, etc), in markdown cells throughout the notebook. Any unexplained price changes are discussed in the context of the item's use and the game's economy.
+
+#### __Changes from Project Plan__
+
+Used pandas descriptive statistics function instead of mean, median, and mode.
