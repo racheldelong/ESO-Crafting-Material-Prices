@@ -40,7 +40,6 @@ Data is read using pandas read_csv function.
 - Pandas max for the maximum value
 - Pandas idxmax for the index (date) of the maximum value
 - Pandas diff for the difference between a row and the previous row
-- Pandas desc for descriptive statistics
 
 #### Feature 4: Visualize your data.
 
@@ -55,4 +54,4 @@ Obvious interpretations are discussed, along with the most likely explanations (
 
 #### __Changes from Project Plan__
 
-Used pandas descriptive statistics function instead of mean, median, and mode.
+Used minimum, minimum index, maximum, maximum index, and difference instead of mean, median and mode, to focus on when changes happened.
