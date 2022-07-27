@@ -4,7 +4,7 @@ For my Code Kentucky Data Analysis 1 project I'll be looking at the price histor
 
 ## __Data__
 
-All data before March 2022 was taken from the Tamriel Trade Centre add-on for ESO. Once Tamriel Trade Centre's website (https://us.tamrieltradecentre.com/pc/Trade/PriceCheck) began including the price history for each item, most entries were recorded using the website rather than the in-game item tooltip. Prices may be rounded differently depending on the source. TTC's suggested price ranges (included in the csv) were simplified by finding the mean of the upper and lower values in Google Sheets.
+All data before March 2022 was taken from the Tamriel Trade Center add-on for ESO. Once Tamriel Trade Center's website (https://us.tamrieltradecentre.com/pc/Trade/PriceCheck) began including the price history for each item, most entries were recorded using the website rather than the in-game item tooltip. Prices may be rounded differently depending on the source. TTC's suggested price ranges (included in the csv) were simplified by finding the mean of the upper and lower values in Google Sheets.
 
 Due to an issue with the add-on recording duplicates after scanning trader listings, number of listings and total quantity listed for 1-16-21 and 1-19-21 were manually adjusted to be in line with other entries and quantity values for those dates are likely still inaccurate.
 
@@ -15,9 +15,9 @@ Main file is a Jupyter Notebook. Install Anaconda (http://www.anaconda.com), the
 
 #### __Packages needed:__
 
-pandas
-numpy
-matplotlib
+- pandas
+- numpy
+- matplotlib
 
 ## __Project Plan__
 
