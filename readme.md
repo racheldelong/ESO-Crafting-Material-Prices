@@ -10,10 +10,10 @@ Due to an issue with the add-on recording duplicates after scanning trader listi
 
 ## __Setup__
 
-Download repository from GitHub. 
-Main file is a Jupyter Notebook. Install Anaconda (http://www.anaconda.com), then open 'ESOMatPrices.ipynb'
+Clone repository from GitHub. 
+Install Anaconda if needed (http://www.anaconda.com), and run the 'ESOMatPrices.ipynb' Jupyter Notebook.
 
-#### __Packages needed:__
+#### __Packages used:__
 
 - pandas
 - numpy
@@ -31,7 +31,6 @@ Data is read using pandas read_csv function.
 - Used filter to select specific columns from the csv
 - Used pandas concat to merge results into a dataframe
 - Renamed columns for readability
-- Rounded results for readability
 
 #### Feature 3: Analyze your data.
 
