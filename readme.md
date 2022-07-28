@@ -19,7 +19,7 @@ Install Anaconda if needed (https://docs.anaconda.com/anaconda/install/index.htm
 - numpy
 - matplotlib
 
-## __Project Plan__
+## __Project__
 
 #### Feature 1: Read data in.
 
