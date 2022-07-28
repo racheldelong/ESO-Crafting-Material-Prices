@@ -11,7 +11,7 @@ Due to an issue with the add-on recording duplicates after scanning trader listi
 ## __Setup__
 
 Clone repository from GitHub. 
-Install Anaconda if needed (http://www.anaconda.com), and run the 'ESOMatPrices.ipynb' Jupyter Notebook.
+Install Anaconda if needed (https://docs.anaconda.com/anaconda/install/index.html), and run the 'ESOMatPrices.ipynb' Jupyter Notebook.
 
 #### __Packages used:__
 
