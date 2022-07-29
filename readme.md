@@ -1,4 +1,4 @@
-# __*The Elder Scrolls Online* Furnishing Material Prices__
+# __*The Elder Scrolls Online* Crafting Material Prices__
 
 For my Code Kentucky Data Analysis 1 project I'll be looking at the price history of comparable crafting materials in the *The Elder Scrolls Online*. The materials chosen are all used in similar ways with similar sources, but have had dramatically different price fluctuations over the years. 
 
