@@ -50,9 +50,9 @@ My interpretations are discussed, along with possible explanations based on in-g
 
 ## __Updates__
 
--Removed the original csv file with a Google Sheets link
--Continuing to improve things where I can while taking Data Analysis 2 (without changing the time period of the original plots or interpretations)
--Added price & quantity charts at the bottom for current prices
+- Removed the original csv file with a Google Sheets link
+- Continuing to improve things where I can while taking Data Analysis 2 (without changing the time period of the original plots or interpretations)
+- Added price & quantity charts at the bottom for current prices
 
 
 ![](https://i.imgur.com/Un3PPMr.jpg)
