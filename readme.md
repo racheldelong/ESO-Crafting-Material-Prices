@@ -10,7 +10,7 @@ Entries before March 2022 were obtained from the [Tamriel Trade Center](https://
 
 Due to an issue with TTC's website listing duplicates, the number of listings and total quantity listed for January 16th & 19th, 2021 were manually adjusted to be in line with other entries and the values for those dates aren't accurate.
 
-#### __Requirements:__
+#### __Uses:__
 
 - python 3.10.4
 - pandas 1.4.4
