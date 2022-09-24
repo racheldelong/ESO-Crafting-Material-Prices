@@ -51,7 +51,7 @@ Data is read using pandas read_csv function with a Google Sheets url.
 
 ![](images/CKy_quantity.png)
 
-- Graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity for heartwood, regulus, & bast in 2020-21 and 2022.
+- Matplotlib line graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity for heartwood, regulus, & bast in 2020-21 and 2022.
 
 ![](images/CKy_heartwood20.png)
 ![](images/CKy_heartwood22.png)
