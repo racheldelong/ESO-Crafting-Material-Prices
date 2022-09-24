@@ -53,9 +53,6 @@ Data is read using pandas read_csv function with a Google Sheets url.
 
 - Matplotlib line graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity for heartwood, regulus, & bast in 2020-21 and 2022.
 
-![](images/CKy_heartwood20.png)
-![](images/CKy_heartwood22.png)
-
 #### __Feature 5: Interpret your data and graphical output.__
 
 The price of heartwood and mundane runes appears to increase in anticipation of upcoming content releases. The start of the New Life Festival also sharply increases the price of heartwood, bast, and regulus due to players listing at inflated prices (as price and quantity both spike at the same time).
