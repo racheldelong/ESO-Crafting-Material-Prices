@@ -1,0 +1,9 @@
+name: cky
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - matplotlib
+  - notebook
+  - seaborn
