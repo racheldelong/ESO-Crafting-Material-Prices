@@ -10,7 +10,7 @@ Entries before March 2022 were obtained from the [Tamriel Trade Center](https://
 
 Due to an issue with TTC's website listing duplicates, the number of listings and total quantity listed for January 16th & 19th, 2021 were manually adjusted to be in line with other entries and the values for those dates aren't accurate.
 
-#### __Requirements:__
+#### __Uses:__
 
 - python 3.10.4
 - pandas 1.4.4
@@ -51,7 +51,7 @@ Data is read using pandas read_csv function with a Google Sheets url.
 
 ![](images/CKy_quantity.png)
 
-- Graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity for heartwood, regulus, & bast in 2020-21 and 2022.
+- Matplotlib line graphs with shared x-axis and separate y-axis scales for comparing changes in price and quantity for heartwood, regulus, & bast in 2020-21 and 2022.
 
 ![](images/CKy_heartwood20.png)
 ![](images/CKy_heartwood22.png)
